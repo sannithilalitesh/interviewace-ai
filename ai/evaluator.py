@@ -620,4 +620,4 @@ def _dedupe(items: list[str]) -> list[str]:
         if key and key not in seen:
             seen.add(key)
             result.append(item.strip())
-    return result
+    return
